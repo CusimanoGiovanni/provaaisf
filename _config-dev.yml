@@ -2,7 +2,7 @@
 # title: "Acr Ev"
 # description: "nome evento completo"
 #url: "/" # the base hostname & protocol for your site
-destination: ../site/
+destination: ../_site/
 locale: "it"
 
 # Build settings
