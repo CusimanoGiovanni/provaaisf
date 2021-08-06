@@ -3,7 +3,7 @@ layout: corso_evento
 
 title: TeleLateX
 date: 2020-04-27
-locandina: img/corsi/telelatex.jpeg
+locandina: /img/corsi/telelatex.jpeg
 icon_block_list:
   - name: "Dove"
     text: "Microsoft Teams"
