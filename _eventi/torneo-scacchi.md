@@ -1,19 +1,19 @@
 ---
 layout: corso_evento
 
-title: TeleLateX
-date: 2020-04-27
-locandina: /img/corsi/telelatex.jpeg
+title: Torneo di Scacchi
+date: 2020-04-11
+locandina: /img/eventi/torneo-scacchi.jpeg
 icon_block_list:
   - name: "Dove"
-    text: "Microsoft Teams"
+    text: "lichess.org"
     icon: room
   - name: "Quando"
-    text: "27/04/2020 - 15:30"
+    text: "11/04/2020 - 22:00"
     icon: schedule
 social:
   - name: "Instagram"
-    url: "https://www.instagram.com/p/B_XMGGFJOfC/"
+    url: "url post instagram"
   - name: "Facebook"
     url: "url post facebook"
   - name: "Teams"
