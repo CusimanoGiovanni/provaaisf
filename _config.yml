@@ -26,7 +26,7 @@ collections:
     permalink: /:collection/:name/
   chisiamo:
     output: true
-    permalink: /:collection/_corsi/
+    permalink: /_chisiamo/
 
 plugins:
  - jekyll-redirect-from
