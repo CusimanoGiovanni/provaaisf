@@ -5,7 +5,8 @@ title: Nobel Unfolded
 date: 2020-11-9
 locandina: 
             /img/eventi/nobel-unfolded.jpeg
-incipit: "Prova prova jdks fdhskj"
+            alt: "Prova prova jdks dcndjsk"
+incipit: "Prova prova jdks"
 icon_block_list:
     - name: "Dove"
       text: "Microsoft Teams"
