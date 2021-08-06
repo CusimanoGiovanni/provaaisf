@@ -55,13 +55,13 @@ credits:
 		{% if page.locandina %}
 			<div class="card">
 				<div class="card-image">
-					<div style="position: absolute; width: 100%; top: 0; left: 0; right: 0; bottom: 0;"></div>
+					<div style="position: absolute; width: 100%; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0); z-index:1;"></div>
 					<img src="{{ site.url }}{{ page.locandina }}">
 					<a target="_blank" id="add-calendar" class="btn-floating halfway-fab btn-large waves-effect waves-light custom1"><i class="material-icons">add</i></a id="add-calendar">
 				</div>
 				<div class="card-content">
 					{% if page.title %}
-						<span class="card-title"{{ page.title }}
+						<span class="card-title" style="z-index: 2; text-shadow: 2px 2px rgba(0,0,0,1);">{{ page.title }}</span>
 					{% endif %}
 					<p id="incipit">{{ content }}</p>
 					{% if page.credits %}
@@ -80,11 +80,14 @@ credits:
 			</div>
 		{% else %}
 			<div class="card white">
-				<div class="card-content">
 					{% if page.title %}
 						<span class="card-title" style="color: black;">{{ page.title }}</span>
 					{% endif %}
 					<p id="incipit">{{ content }}</p>
+					{% if page.credits %}
+						<div class="thanks" style="margin-top: 8px; font-weight: bold; display:block;">Ringraziamenti:</div>
+						<p>{{ page.credits }}</p>
+					{% endif %}
 				</div>
 				{% if page.icon_block_list %}
 					{% include icon_block_list.html icons=page.icon_block_list %}
