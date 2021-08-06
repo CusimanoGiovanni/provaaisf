@@ -4,6 +4,7 @@ layout: corso_evento
 title: Nobel Unfolded
 date: 2020-11-9
 locandina: /img/eventi/nobel-unfolded.jpeg
+incipit: Prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova
 icon_block_list:
     - name: "Dove"
       text: "Microsoft Teams"
