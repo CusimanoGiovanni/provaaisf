@@ -3,9 +3,7 @@ layout: corso_evento
 
 title: Nobel Unfolded
 date: 2020-11-9
-locandina: 
-            /img/eventi/nobel-unfolded.jpeg
-            alt: "Prova prova jdks dcndjsk"
+locandina: /img/eventi/nobel-unfolded.jpeg
 incipit: "Prova prova jdks"
 icon_block_list:
     - name: "Dove"

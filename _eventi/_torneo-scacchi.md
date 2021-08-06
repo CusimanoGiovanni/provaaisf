@@ -2,10 +2,8 @@
 layout: corso_evento
 
 title: Torneo di Scacchi
-locandina: 
-           url: /img/eventi/Locandina_TorneoScacchi.png
-           alt: Torneo di Scacchi
-descrizione: "Breve incipit dell'evento"
+locandina: /img/eventi/Locandina_TorneoScacchi.png
+incipit: "Breve incipit dell'evento"
 icon_block_list:
                   - name: "Dove"
                     text: "lichess.org"
