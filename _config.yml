@@ -1,7 +1,7 @@
 # Site settings
 # title: "Acr Ev"
 # description: "nome evento completo"
-url: "https://dariozar.github.io/palermo" # the base hostname & protocol for your site
+url: "https://cusimanogiovanni.github.io/provaaisf" # the base hostname & protocol for your site
 destination: ../site/
 locale: "it"
 
@@ -22,6 +22,9 @@ collections:
     output: true
     permalink: /:collection/:name/
   corsi:
+    output: true
+    permalink: /:collection/:name/
+  chisiamo:
     output: true
     permalink: /:collection/:name/
 
