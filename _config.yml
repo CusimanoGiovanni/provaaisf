@@ -1,0 +1,30 @@
+# Site settings
+# title: "Acr Ev"
+# description: "nome evento completo"
+url: "https://dariozar.github.io/palermo" # the base hostname & protocol for your site
+destination: ../site/
+locale: "it"
+
+# Build settings
+markdown: kramdown
+future: true
+permalink: /blog/:year/:month/:day/:title/
+destination: _site
+
+
+#facebook
+fb_admins:
+fb_appid:
+
+#Collections
+collections:
+  eventi:
+    output: true
+    permalink: /:collection/:name/
+  corsi:
+    output: true
+    permalink: /:collection/:name/
+
+plugins:
+ - jekyll-redirect-from
+ - jekyll-sitemap
