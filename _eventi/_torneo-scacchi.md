@@ -2,7 +2,7 @@
 layout: corso_evento
 
 title: Torneo di Scacchi
-date: 2020-04-11
+date: 2020-4-11
 locandina: /img/eventi/Locandina_TorneoScacchi.png
 incipit: "Breve incipit dell'evento"
 icon_block_list:
