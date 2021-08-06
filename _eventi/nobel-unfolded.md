@@ -5,8 +5,8 @@ title: Nobel Unfolded
 date: 2020-11-9
 locandina: 
             url: /img/eventi/nobel-unfolded.jpeg
-            alt: Prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova
-incipit: Prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova
+            alt: "Prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova"
+incipit: "Prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova prova"
 icon_block_list:
     - name: "Dove"
       text: "Microsoft Teams"
