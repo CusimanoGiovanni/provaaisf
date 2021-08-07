@@ -80,7 +80,7 @@
 
 .waves-circle {
   transform: translateZ(0);
-  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  -webkit-mask-image: -webkit-radial-gradient(circle, rgb(68, 0, 255) 100%, rgb(68, 0, 255) 100%);
 }
 
 .waves-input-wrapper {
