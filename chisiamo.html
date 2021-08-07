@@ -1,32 +1,31 @@
 ---
 layout: default
 ---
-<div class="container">
 
+<div class="container">
 	<h2 class="header">La presidenza del comitato locale</h2>
 	<div id="index-banner">
 		<div class="row">
 			{% assign liveevents = 0 %}
-			{% for corso in site.corsi reversed %}
-			{% if corso.date >= 2021 %}
+			{% for event in site.eventi reversed %}
+			{% if event.date >= site.time %}
 			{% assign liveevents = liveevents | plus: 1 %}
-			{% include event_card.html event=persona %}
+			{% include event_card.html event=event %}
 			{% endif %}
 			{% endfor %}
 			{% if liveevents == 0 %}
 			<ul class="collection"> 
-				<li class="collection-item"> Non ci sono corsi in programma. </li>
+				<li class="collection-item"> Non ci sono eventi in programma. </li>
 			</ul>
 			{% endif %}
 		</div>
 	</div>
-
-	<h2 class="header">Presidenti precedenti</h2>
+	<h2 class="header">Presidenti degli anni passati</h2>
 	<div id="index-banner">
 		<div class="row">
-			{% for persona in site.chisiamo reversed %}
-			{% if persona.date < 2021 %}
-			{% include event_card.html event=persona %}
+			{% for event in site.eventi reversed %}
+			{% if event.date < site.time %}
+			{% include event_card.html event=event %}
 			{% endif %}
 			{% endfor %}
 		</div>
