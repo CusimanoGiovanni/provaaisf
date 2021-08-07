@@ -128,15 +128,15 @@
       width: 100%;
     }
 
-    //.card-title {
-      //color: $card-bg-color;
-    //  position: absolute;
-    //  bottom: 0;
-    //  left: 0;
-    //  max-width: 100%;
-    //  padding: $card-padding;
-    //}
-  //}
+    .card-title {
+      color: $card-bg-color;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      max-width: 100%;
+      padding: $card-padding;
+    }
+  }
 
   .card-content {
     padding: $card-padding;
