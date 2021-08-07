@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="container">
+
+	<h2 class="header">La presidenza del comitato locale</h2>
+	<div id="index-banner">
+		<div class="row">
+			{% assign liveevents = 0 %}
+			{% for persona in site.chisiamo %}
+            {% include event_card.html event=corso %}
+			{% endif %}
+		</div>
+	</div>
