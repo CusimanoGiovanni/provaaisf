@@ -1,9 +1,34 @@
---- 
+---
 layout: default
 ---
 <div class="container">
-<h2 class="header">Prossimamente</h2>
-<div id="index-banner">
-<div class="collection">{% assign liveevents = 0 %} {% for event in site.eventi reversed %}  {% assign liveevents = liveevents | plus: 1 %} {% include event_card.html event=event %} {% endif %} {% endfor %} {% if liveevents == 0 %}
-{% endif %}</div>
+
+	<h2 class="header">La presidenza del comitato locale</h2>
+	<div id="index-banner">
+		<div class="row">
+			{% assign liveevents = 0 %}
+			{% for corso in site.corsi reversed %}
+			{% if corso.date >= 2021 %}
+			{% assign liveevents = liveevents | plus: 1 %}
+			{% include event_card.html event=persona %}
+			{% endif %}
+			{% endfor %}
+			{% if liveevents == 0 %}
+			<ul class="collection"> 
+				<li class="collection-item"> Non ci sono corsi in programma. </li>
+			</ul>
+			{% endif %}
+		</div>
+	</div>
+
+	<h2 class="header">Presidenti precedenti</h2>
+	<div id="index-banner">
+		<div class="row">
+			{% for persona in site.chisiamo reversed %}
+			{% if persona.date < 2021 %}
+			{% include event_card.html event=persona %}
+			{% endif %}
+			{% endfor %}
+		</div>
+	</div>
 </div>
